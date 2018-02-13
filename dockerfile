@@ -13,4 +13,4 @@ RUN python download_mcr.py &&\
     rm download_mcr.py &&\
     rm extract_mcr.py
 
-ENV LD_LIBRARY_PATH /usr/local/MATLAB/MATLAB_Runtime/v91/runtime/glnxa64:/usr/local/MATLAB/MATLAB_Runtime/v91/bin/glnxa64:/usr/local/MATLAB/MATLAB_Runtime/v91/sys/os/glnxa64:
+ENV LD_LIBRARY_PATH /usr/local/MATLAB/MATLAB_Runtime/v91/runtime/glnxa64:/usr/local/MATLAB/MATLAB_Runtime/v91/bin/glnxa64:/usr/local/MATLAB/MATLAB_Runtime/v91/sys/os/glnxa64
