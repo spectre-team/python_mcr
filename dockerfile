@@ -1,4 +1,4 @@
-FROM python:3.4-slim
+FROM python:3.5-slim
 
 COPY download_mcr.py download_mcr.py
 
