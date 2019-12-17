@@ -1,6 +1,6 @@
 import urllib.request
 
-remote_path = 'http://ssd.mathworks.com/supportfiles/downloads/R2016b/deployment_files/R2016b/installers/glnxa64/MCR_R2016b_glnxa64_installer.zip'
+remote_path = 'https://ssd.mathworks.com/supportfiles/downloads/R2019a/Release/6/deployment_files/installer/complete/glnxa64/MATLAB_Runtime_R2019a_Update_6_glnxa64.zip'
 local_path = 'mcr.zip'
 
 urllib.request.urlretrieve(remote_path, local_path)
